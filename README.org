@@ -14,7 +14,22 @@ poetry run ipython
 poetry shell
 #+end_src
 *** PyTorch
+Poetry will install PyTorch.
+**** PyTorch Poetry Fix
+Poetry doesn't allow you to specify a custom repo for certain dependencies.
+
+You may need to use pip to install PyTorch from a custom repo:
+
+#+begin_src
+pip3 install -U torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+#+end_src
+
+This can be done by running ~fix-cu113.sh~.
+
+See https://pytorch.org/get-started/locally/ for up-to-date instruction on how to install PyTorch.
 **** Tutorials
 https://pytorch.org/tutorials/beginner/basics/intro.html
 ** Quickstart
 1. Install poetry
+2. Run ~poetry install~
+3. Perform the [[PyTorch Poetry Fix]] if needed
