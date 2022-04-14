@@ -1,0 +1,20 @@
+#+STARTUP: indent overview
+* Learn PyTorch
+My personal experiments for learning PyTorch.
+** Supporting Technology
+*** Poetry
+See: https://python-poetry.org/docs/basic-usage/
+
+The following commands may be useful:
+#+begin_src
+dnf install poetry
+poetry help
+poetry config --list
+poetry run ipython
+poetry shell
+#+end_src
+*** PyTorch
+**** Tutorials
+https://pytorch.org/tutorials/beginner/basics/intro.html
+** Quickstart
+1. Install poetry
