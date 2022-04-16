@@ -33,3 +33,4 @@ https://pytorch.org/tutorials/beginner/basics/intro.html
 2. Run ~poetry install~
 3. Enter ~poetry shell~
 4. Run ~install_torch_cu113.sh~ (See: [[PyTorch Poetry Workaround]])
+5. Run ~python src/quickstart.py~
