@@ -7,5 +7,6 @@ authors = []
 [tool.poetry.dependencies]
 python = "^3.10"
 ipython = "^8.2.0"
+python-lsp-server = "^1.4.1"
 numpy = "^1.22.3"
 tensorboard = "^2.8.0"
