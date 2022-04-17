@@ -1,4 +1,3 @@
-#+STARTUP: indent overview
 * Learn PyTorch
 My personal experiments for learning PyTorch.
 ** Supporting Technology
@@ -17,7 +16,7 @@ poetry shell
 **** PyTorch Poetry Workaround
 Poetry doesn't allow you to specify a custom repo for certain dependencies.
 
-To install PyTorch from a custom repo:
+To install PyTorch from a custom repo we have to use pip directly:
 
 #+begin_src
 pip3 install -U torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
@@ -30,7 +29,7 @@ See https://pytorch.org/get-started/locally/ for up-to-date instruction on how t
 https://pytorch.org/tutorials/beginner/basics/intro.html
 ** Quickstart
 1. Install poetry
-2. Run ~poetry install~
-3. Enter ~poetry shell~
+2. Enter ~poetry shell~
+3. Run ~poetry install~
 4. Run ~install_torch_cu113.sh~ (See: [[PyTorch Poetry Workaround]])
 5. Run ~python src/quickstart.py~
