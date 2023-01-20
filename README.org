@@ -1,9 +1,11 @@
 * Learn PyTorch
 My personal experiments for learning PyTorch.
+
+The most impressive demo is in ~SAC.ipynb~.
 ** Quickstart
 1. Create and activate a virtual environment
 2. ~pip install -r requirements.txt~
-3. Run ~python src/quickstart.py~
+3. Start ~jupyter notebook~ and run ~SAC.ipynb~.
 ** Supported Python versions
 As of Jan 2023, Python 3.10 is supported. PyTorch does not support newer versions of Python.
 
