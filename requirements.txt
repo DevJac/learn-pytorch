@@ -1,0 +1,7 @@
+ipython
+jupyter
+python-lsp-server
+numpy
+tensorboard
+tqdm
+gymnasium[box2d]
