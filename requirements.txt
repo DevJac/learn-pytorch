@@ -5,3 +5,4 @@ numpy
 tensorboard
 tqdm
 gymnasium[box2d]
+torch
